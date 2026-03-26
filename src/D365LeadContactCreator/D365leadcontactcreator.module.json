@@ -1,0 +1,56 @@
+{
+  "namespace": "D365LeadContactCreator",
+  "items": {
+    "path": "serialization",
+    "includes": [
+      {
+        "name": "D365LeadContactCreator.FieldTypes.MarketingNiche",
+        "path": "/sitecore/system/Field types/List Types/D365 Picklist - Marketing Niche",
+        "database": "core",
+        "rules": [
+          {
+            "path": "/legacy",
+            "scope": "ItemAndDescendants",
+            "AllowedPushOperations": "CreateUpdateAndDelete"
+          }
+        ]
+      },
+      {
+        "name": "D365LeadContactCreator.FieldTypes.MarketingRegion",
+        "path": "/sitecore/system/Field types/List Types/D365 Picklist - Marketing Region",
+        "database": "core",
+        "rules": [
+          {
+            "path": "/legacy",
+            "scope": "ItemAndDescendants",
+            "AllowedPushOperations": "CreateUpdateAndDelete"
+          }
+        ]
+      },
+      {
+        "name": "D365LeadContactCreator.Templates",
+        "path": "/sitecore/templates/Modules/SitecoreFundamentals/D365LeadContactCreator",
+        "database": "master",
+        "rules": [
+          {
+            "path": "/legacy",
+            "scope": "ItemAndDescendants",
+            "AllowedPushOperations": "CreateUpdateAndDelete"
+          }
+        ]
+      },
+      {
+        "name": "D365LeadContactCreator.Settings",
+        "path": "/sitecore/system/Modules/SitecoreFundamentals/D365LeadContactCreator",
+        "database": "master",
+        "rules": [
+          {
+            "path": "/legacy",
+            "scope": "ItemAndDescendants",
+            "AllowedPushOperations": "CreateUpdateAndDelete"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+﻿---
+ID: "d13c2856-63dc-4006-aaf5-9f488de4d2ac"
+Parent: "98305b25-d668-4683-a2f1-860bbb666f4c"
+Template: "4be59854-b69b-40cd-a424-f894a0ad7eb1"
+Path: /sitecore/system/Modules/SitecoreFundamentals/D365LeadContactCreator/D365 Common Form Settings
+SharedFields:
+- ID: "2e71e92b-7760-41ba-be09-37ce9a154cd5"
+  Hint: Marketing Niche
+  Value: Technology
+- ID: "4432a64a-f040-4f23-a6d3-1f75b2da33d1"
+  Hint: Enabled
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f9727f7b-9863-4e98-a74d-427f1acc485d"
+  Hint: Marketing Region
+  Value: Digital
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T195958Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2f75a0c-9c09-426e-a1f9-dbdb7d7fa730"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260318T194309Z

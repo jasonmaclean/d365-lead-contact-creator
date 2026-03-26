@@ -1,0 +1,41 @@
+﻿---
+ID: "60f87cc0-929d-435d-ac64-e8c868040406"
+Parent: "72352efd-3c06-404d-93fa-737f669f41fa"
+Template: "f8a17d6a-118e-4cd7-b5f5-88ff37a4f237"
+Path: "/sitecore/system/Field types/List Types/D365 Picklist - Marketing Region"
+SharedFields:
+- ID: "0f0a5388-0467-4a45-95c0-729b1d6db9fd"
+  Hint: Control
+  Value: "d365PicklistMarketingRegion:D365PicklistMarketingRegion"
+- ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
+  Hint: Assembly
+  Value: Sitecore.Foundation.Integrations
+- ID: "9fe6154a-a16e-4827-99f6-f51533c34ec8"
+  Hint: Class
+  Value: Sitecore.Foundation.Integrations.Controls.D365PicklistMarketingRegion
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251006T195503Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f1fdab5-1d99-49ee-898e-e4236a2c1f0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251029T191656Z

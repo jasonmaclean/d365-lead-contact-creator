@@ -1,0 +1,33 @@
+﻿---
+ID: "94bd5384-de21-473f-a9e5-764f3998c959"
+Parent: "98305b25-d668-4683-a2f1-860bbb666f4c"
+Template: "d9b8b1ee-c100-41a5-9900-036d0d7238dc"
+Path: /sitecore/system/Modules/SitecoreFundamentals/D365LeadContactCreator/D365 Integration Settings
+SharedFields:
+- ID: "38226da0-a483-409f-aaa0-f5075dd414bd"
+  Hint: ClientSecret
+  Value: 
+- ID: "55ab5826-566d-4764-9d89-0aa5c94c0c18"
+  Hint: ClientId
+  Value: 
+- ID: "57a3de12-7aee-4fe2-9662-92f6dbb5c6a9"
+  Hint: TenantId
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T183717Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8488024a-fbc9-4665-8d4a-f14b8bb4747b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260324T143701Z
