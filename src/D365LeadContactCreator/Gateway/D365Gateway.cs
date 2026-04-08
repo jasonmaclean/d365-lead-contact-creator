@@ -120,6 +120,8 @@ namespace SitecoreFundamentals.D365LeadContactCreator.Gateway
                 if (await SetAuthorizationHeaderAsync() == false)
                     return false;
 
+                TrimProperties(lead);
+
                 var logPrefix = $"[{GetType().FullName}.{MethodBase.GetCurrentMethod().Name}] ->";
 
                 var content = new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(lead), System.Text.Encoding.UTF8, "application/json");
@@ -197,6 +199,8 @@ namespace SitecoreFundamentals.D365LeadContactCreator.Gateway
             {
                 if (await SetAuthorizationHeaderAsync() == false)
                     return null;
+
+                TrimProperties(contact);
 
                 var logPrefix = $"[{GetType().FullName}.{MethodBase.GetCurrentMethod().Name}] ->";
 

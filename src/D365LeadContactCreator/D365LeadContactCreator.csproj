@@ -303,6 +303,7 @@
     <Compile Include="Gateway\Caching.cs" />
     <Compile Include="Gateway\D365Gateway.cs" />
     <Compile Include="Gateway\GatewayBase.cs" />
+    <Compile Include="Gateway\Helpers.cs" />
     <Compile Include="Gateway\ReferenceData.cs" />
     <Compile Include="Helpers\FormHelper.cs" />
     <Compile Include="Helpers\CreateLeadWithContact.cs" />

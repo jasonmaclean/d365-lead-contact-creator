@@ -4,6 +4,7 @@ namespace SitecoreFundamentals.D365LeadContactCreator.Models
 {
     internal class Lead : LeadContactBase
     {
+        [MaxLength(300)]
         [JsonProperty("subject")]
         public string OpportunityName { get; set; }
 
