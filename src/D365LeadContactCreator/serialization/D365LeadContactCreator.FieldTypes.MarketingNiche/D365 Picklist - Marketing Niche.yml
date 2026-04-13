@@ -9,10 +9,10 @@ SharedFields:
   Value: "d365PicklistMarketingNiche:D365PicklistMarketingNiche"
 - ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
   Hint: Assembly
-  Value: Sitecore.Foundation.Integrations
+  Value: SitecoreFundamentals.D365LeadContactCreator
 - ID: "9fe6154a-a16e-4827-99f6-f51533c34ec8"
   Hint: Class
-  Value: Sitecore.Foundation.Integrations.Controls.D365PicklistMarketingNiche
+  Value: SitecoreFundamentals.D365LeadContactCreator.Controls.D365PicklistMarketingNiche
 Languages:
 - Language: en
   Versions:
